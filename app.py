@@ -5,7 +5,7 @@ import uuid
 from datetime import datetime
 
 # Set page config
-st.set_page_config(page_title="Secret Santa Hub", layout="wide")
+st.set_page_config(page_title="Secret Santa", layout="wide")
 
 # Establish connection to Google Sheets
 conn = st.connection("gsheets", type=GSheetsConnection)
