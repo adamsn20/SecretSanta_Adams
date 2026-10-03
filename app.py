@@ -72,7 +72,7 @@ def edit_dialog(gift_row):
 
 # --- LOGIN SCREEN ---
 if not st.session_state.logged_in:
-    st.title("🎄 Secret Santa Hub")
+    st.title("🎄 Secret Santa Gift List")
     st.write("Welcome! Please select your name to continue.")
     selected_name = st.selectbox("Who are you?", ["Select your name..."] + user_list)
     
